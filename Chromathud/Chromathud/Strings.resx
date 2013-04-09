@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Credits" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="DebugMode" xml:space="preserve">
+    <value>Debugging</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="EnableGroupClear" xml:space="preserve">
+    <value>Group Clears</value>
+  </data>
+  <data name="EndlessMode" xml:space="preserve">
+    <value>Endless</value>
+  </data>
+  <data name="FastScoring" xml:space="preserve">
+    <value>Faster Scoring</value>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>Fullscreen </value>
+  </data>
+  <data name="HowToPlay" xml:space="preserve">
+    <value>How To Play</value>
+  </data>
+  <data name="InvertOnPush" xml:space="preserve">
+    <value>Invert on Push</value>
+  </data>
+  <data name="LessThan10" xml:space="preserve">
+    <value>Low Numbers</value>
+  </data>
+  <data name="MaxSelect" xml:space="preserve">
+    <value>Max Selection</value>
+  </data>
+  <data name="MultiPlay" xml:space="preserve">
+    <value>Multiplayer</value>
+  </data>
+  <data name="Music" xml:space="preserve">
+    <value>Music</value>
+  </data>
+  <data name="NeonBlocks" xml:space="preserve">
+    <value>Neon Blocks</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="ShapedExplosions" xml:space="preserve">
+    <value>Small Explosions</value>
+  </data>
+  <data name="Sound" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="StartingSpeed" xml:space="preserve">
+    <value>Starting Speed</value>
+  </data>
+  <data name="TargetNotifications" xml:space="preserve">
+    <value>Target Hints</value>
+  </data>
+  <data name="TimedMode" xml:space="preserve">
+    <value>Time Attack</value>
+  </data>
+  <data name="TranslucentBlocks" xml:space="preserve">
+    <value>Translucent Blocks</value>
+  </data>
+  <data name="TutorialIntro" xml:space="preserve">
+    <value>Welcome to Chromathud. This is a rising block puzzle game where the goal is to select numbered blocks that add up to the target number. Your first target is {0}. Find a {0} block and {1}!</value>
+  </data>
+  <data name="TutorialTest" xml:space="preserve">
+    <value>Testing</value>
+  </data>
+  <data name="XDifficulty" xml:space="preserve">
+    <value>???</value>
+  </data>
+  <data name="TutorialTest1" xml:space="preserve">
+    <value>Testing</value>
+  </data>
+  <data name="TutorialCompleted" xml:space="preserve">
+    <value>This completes the tutorial. The game will now be in Endless mode, but you can play the tutorial again any time you wish. Have fun!</value>
+  </data>
+  <data name="TutorialDeadBlocks" xml:space="preserve">
+    <value>When a block is deselected, it turns grey. Grey blocks can only be cleared by clearing two or more adjacent blocks at the same time.</value>
+  </data>
+  <data name="TutorialLimitIncreased" xml:space="preserve">
+    <value>As you gain more points, you will also gain the ability to select more blocks at one time. Your limit is now {0}!</value>
+  </data>
+  <data name="TutorialPushing" xml:space="preserve">
+    <value>If not enough blocks remain, you can make them rise faster by pressing {0}. Be careful not to go too far!</value>
+  </data>
+  <data name="TutorialPushingPC" xml:space="preserve">
+    <value>Spacebar</value>
+  </data>
+  <data name="TutorialSelectLimitPC" xml:space="preserve">
+    <value>Right click on a block to deselect it.</value>
+  </data>
+  <data name="TutorialSelectLimitReached" xml:space="preserve">
+    <value>When you start out you can select a maximum of 3 blocks at the same time. Your current limit can be seen on the right. If you reach this limit, you must deselect some blocks to continue. {0}</value>
+  </data>
+  <data name="TutorialTargetChanged" xml:space="preserve">
+    <value>Every time you reach your target, it changes. The target is now {0}</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="PressStart" xml:space="preserve">
+    <value>Press Start</value>
+  </data>
+  <data name="TutorialPushingXbox" xml:space="preserve">
+    <value>{LT}</value>
+  </data>
+  <data name="TutorialSelectLimitXbox" xml:space="preserve">
+    <value>You can deselect blocks by pressing {B}</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>Tutorial</value>
+  </data>
+  <data name="TutorialHowToLose" xml:space="preserve">
+    <value>You will lose if any blocks hit the top of the field. So don't let them!</value>
+  </data>
+  <data name="TutorialIntroPC" xml:space="preserve">
+    <value>click it</value>
+  </data>
+  <data name="TutorialIntroXbox" xml:space="preserve">
+    <value>press {A}</value>
+  </data>
+</root>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+    <Product Id="2A153B43-F27C-40B3-82F7-CA9C7022AD96" 
+             Name="Chromathud" 
+             Language="1033" 
+             Codepage="1252"
+             Version="1.0.0.0" 
+             Manufacturer="Chromathud Team" 
+             UpgradeCode="9B25D4EF-F619-452A-A93F-45DE6F4DA9D8">
+        
+        <Package Id="*" 
+                 Keywords="Installer"
+                 Description="Chromathud Installer"
+                 Comments="A limited edition addition addiction"
+                 InstallerVersion="200" 
+                 Compressed="yes" 
+                 SummaryCodepage="1252" />
+
+        <Media Id="1" Cabinet="media1.cab" EmbedCab="yes" />
+        
+        <WixVariable Id="WixUILicenseRtf" Value="Media\License.rtf" />
+        <WixVariable Id="WixUIBannerBmp" Value="Media\banner.bmp" />
+        <WixVariable Id="WixUIDialogBmp" Value="Media\dialog.bmp" />
+
+        
+
+        <!-- Can replace these, but defaults are probably fine. -->
+        <!--<WixVariable Id="WixUIExclamationIco" Value="path\exclamation.ico" />
+        <WixVariable Id="WixUIInfoIco" Value="path\information.ico" />
+        <WixVariable Id="WixUINewIco" Value="path\new.ico" />
+        <WixVariable Id="WixUIUpIco" Value="path\up.ico" />-->
+
+        <Icon Id="Five.ico" SourceFile="Media/Five.ico" />
+        <Icon Id="Nine.exe" SourceFile="Media/Nine.ico" />
+
+
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            
+            <Directory Id="ProgramFilesFolder">
+                <Directory Id="INSTALLLOCATION" 
+                           Name="Chromathud" 
+                           FileSource="../Chromathud/Chromathud/bin/x86/Release">
+                    <Directory Id="ContentDir"
+                               Name="Content"
+                                />
+
+                    
+                    <!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+                    <Component Id="MainExe" Guid="3E9AC0CD-A97D-4878-9537-A7715F1ECA11">
+                        <!-- TODO: Insert files, registry keys, and other resources here. -->
+                        <File Id="Binary"
+                              Name="Chromathud.exe"
+                              DiskId="1"
+                              Source="../Chromathud/Chromathud/bin/x86/Release/Chromathud.exe"
+                              KeyPath="yes"
+                              Vital="yes">
+                            <Shortcut
+                                Id="DesktopShortcut"
+                                Directory="DesktopFolder"
+                                Name="Chromathud"
+                                WorkingDirectory="INSTALLDIR"
+                                Icon="Nine.exe"
+                                Advertise="yes">
+                            </Shortcut>
+                        </File>
+                        <File Id="EasyStorageDLL"
+                              DiskId="1"
+                              Source="../Chromathud/Chromathud/bin/x86/Release/EasyStorage.dll"
+                              KeyPath="no"
+                              Vital="yes" />
+                    </Component>
+
+
+                    <Directory Id="Japanese"
+                               Name="ja">
+                        <Component Id="Translationja" Guid="E6216766-B800-41B2-AB61-C575ECDE8CEC">
+                            <File Id="Ja"
+                                  DiskId="1"
+                                  Source="../Chromathud/Chromathud/bin/x86/Release/ja/EasyStorage.resources.dll"
+                                  KeyPath="yes"
+                                  Vital="yes" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="Spanish"
+                               Name="es">
+                        <Component Id="Translationes" Guid="72730CAF-760C-4F8A-9513-2136FF60A4F8">
+                            <File Id="Es"
+                                  DiskId="1"
+                                  Source="../Chromathud/Chromathud/bin/x86/Release/es/EasyStorage.resources.dll"
+                                  KeyPath="yes"
+                                  Vital="yes" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="Italian"
+                               Name="it">
+                        <Component Id="Translationit" Guid="54EDA5DD-4E5A-48F9-BCFD-602F2AA2DB72">
+                            <File Id="It"
+                                  DiskId="1"
+                                  Source="../Chromathud/Chromathud/bin/x86/Release/it/EasyStorage.resources.dll"
+                                  KeyPath="yes"
+                                  Vital="yes" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="French"
+                               Name="fr">
+                        <Component Id="Translationfr" Guid="F1561246-8F02-41D5-80A3-E4F6C3D37130">
+                            <File Id="Fr"
+                                  DiskId="1"
+                                  Source="../Chromathud/Chromathud/bin/x86/Release/fr/EasyStorage.resources.dll"
+                                  KeyPath="yes"
+                                  Vital="yes" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="German"
+                               Name="de">
+                        <Component Id="Translationde" Guid="D5F8F407-6314-457A-950D-3A94FEC87361">
+                            <File Id="De"
+                                  DiskId="1"
+                                  Source="../Chromathud/Chromathud/bin/x86/Release/de/EasyStorage.resources.dll"
+                                  KeyPath="yes"
+                                  Vital="yes" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+
+            <Directory Id="ProgramMenuFolder" Name="Programs">
+                <Directory Id="ProgramMenuDir" Name="Foobar 1.0">
+                    <Component Id="ProgramMenuDir" Guid="8A5580FE-86D7-11E1-A44A-495E61E300D6">
+                        <RemoveFolder Id='ProgramMenuDir' On='uninstall' />
+                        <RegistryValue Root='HKCU' Key='Software\[Manufacturer]\[ProductName]' Type='string' Value='' KeyPath='yes' />
+                    </Component>
+                </Directory>
+            </Directory>
+
+            <Directory Id="DesktopFolder" Name="DesktopFolder" />
+            
+        </Directory>
+
+        <Feature Id="ProductFeature" 
+                 Title="Chromathud" 
+                 Level="1" 
+                 Description="Game Files" 
+                 Display="expand"
+                 ConfigurableDirectory="INSTALLLOCATION">
+            <!-- TODO: Remove the comments around this ComponentRef element and the Component above in order to add resources to this installer. -->
+            <ComponentRef Id="MainExe" />
+            <ComponentRef Id="Translationja" />
+            <ComponentRef Id="Translationes" />
+            <ComponentRef Id="Translationit" />
+            <ComponentRef Id="Translationfr" />
+            <ComponentRef Id="Translationde" />
+            <ComponentRef Id="ProgramMenuDir" />
+            
+            <!-- Note: The following ComponentGroupRef is required to pull in generated authoring from project references. -->
+            <ComponentGroupRef Id="Product.Generated" />
+            
+            <!-- Compiled content harvested from the game's release build directory-->
+            <ComponentGroupRef Id="HarvestedFiles"/>
+        </Feature>
+
+        <!-- This line is necessary to avoid 2343 errors, even though it should totally default in. -->
+        <Property Id="WIXUI_INSTALLDIR" Value="INSTALLLOCATION" />
+        <Property Id="ARPPRODUCTICON" Value="Five.ico" />
+        <UIRef Id="WixUI_InstallDir" />
+        <UIRef Id="WixUI_ErrorProgressText" />
+    </Product>
+</Wix>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="Chromathud__Windows_.Content" />
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="Chromathud__Windows_.Content">
+            <ComponentRef Id="cmp3EE3DAA824032336093A2284B00C5B2C" />
+            <ComponentRef Id="cmpB9F2A06CA94DFBF4828424D39654DCA8" />
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="HarvestedBinaries">
+            <Component Id="cmp3EE3DAA824032336093A2284B00C5B2C" Directory="Chromathud__Windows_.Content" Guid="*">
+                <File Id="fil94C57E60469B5A03F42FB2F332138279" Source="$(var.Chromathud (Windows).ProjectDir)\Game.ico" />
+            </Component>
+            <Component Id="cmpB9F2A06CA94DFBF4828424D39654DCA8" Directory="Chromathud__Windows_.Content" Guid="*">
+                <File Id="fil5777846E161E461C0B2B7342968FE7AB" Source="$(var.Chromathud (Windows).ProjectDir)\GameThumbnail.png" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

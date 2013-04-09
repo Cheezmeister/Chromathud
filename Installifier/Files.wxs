@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="ContentDir">
+            <Directory Id="dirA5E19859EAAEAE9A7251AFDFBBE4180F" Name="." />
+        </DirectoryRef>
+    </Fragment>
+    <!--
+     Generated with the awful, nasty line below. Let's never do this again.
+     "C:\Program Files (x86)\Windows Installer XML v3.5\bin\heat.exe" dir "../../../Chromathud/Chromathud/bin/x86/Release/Content" -dr ContentDir -v -ag -cg HarvestedFiles -var var.ContentDirectory -o ../../Files.wxs
+    -->
+    <!--
+     NOTE: Do not build the installer using Debug configuration. It won't work. 
+     Switch to Release before building. Thanks, the management.
+    -->
+    <Fragment>
+        <ComponentGroup Id="HarvestedFiles">
+            <Component Id="cmp203C67E6BBC1022317849200774D98F1" Directory="dirA5E19859EAAEAE9A7251AFDFBBE4180F" Guid="*">
+                <File Id="filEEA72A35A8C2E287DE40A09A41EBF023" KeyPath="yes" Source="$(var.ContentDirectory)\ben.xnb" />
+            </Component>
+            <Component Id="cmpB116725F6F911DC139ACC75E3B3E1B3A" Directory="dirA5E19859EAAEAE9A7251AFDFBBE4180F" Guid="*">
+                <File Id="filE26569E74C1E7B747A26EB200DB8F98A" KeyPath="yes" Source="$(var.ContentDirectory)\brendan.xnb" />
+            </Component>
+            <Component Id="cmp1564E076D5B0B225A9A49ED0B5FB8C6C" Directory="dirA5E19859EAAEAE9A7251AFDFBBE4180F" Guid="*">
+                <File Id="fil048ABA7326E2CBAFDE37DDBE6D7008F7" KeyPath="yes" Source="$(var.ContentDirectory)\dave.xnb" />
+            </Component>
+            <Component Id="cmp17293801BF9897CF519EE0CDE9791FBC" Directory="dirA5E19859EAAEAE9A7251AFDFBBE4180F" Guid="*">
+                <File Id="fil3BEA17EEDBA41DB4A872B37B8E3ED6F6" KeyPath="yes" Source="$(var.ContentDirectory)\kevin.xnb" />
+            </Component>
+            <Component Id="cmp854B6FFB085D22663618487284893FE5" Directory="dirB4A7980592EC17055F1DC76C5BFD2504" Guid="*">
+                <File Id="filA1CEB8A47798504D246125E6110F5581" KeyPath="yes" Source="$(var.ContentDirectory)\art\BlockSelector.xnb" />
+            </Component>
+            <Component Id="cmp03448E3CC46AB2010047F0F0D30D7032" Directory="dirB4A7980592EC17055F1DC76C5BFD2504" Guid="*">
+                <File Id="fil8B8B4203C242C54780F4D55635CB6316" KeyPath="yes" Source="$(var.ContentDirectory)\art\limit.xnb" />
+            </Component>
+            <Component Id="cmpEBFBB0D85BEC7997DFE39F46CDB71AB7" Directory="dirB4A7980592EC17055F1DC76C5BFD2504" Guid="*">
+                <File Id="fil344AEDF81C7B95AD47D6E98B0D088BE4" KeyPath="yes" Source="$(var.ContentDirectory)\art\Particle.xnb" />
+            </Component>
+            <Component Id="cmp05EA41A6CBD36CD18BAA5B374466804B" Directory="dirB4A7980592EC17055F1DC76C5BFD2504" Guid="*">
+                <File Id="fil310141F550443B329E5AF07D512C7D08" KeyPath="yes" Source="$(var.ContentDirectory)\art\pixel.xnb" />
+            </Component>
+            <Component Id="cmpAFF7163716CDF1E1136060DF0373AFFC" Directory="dirB4A7980592EC17055F1DC76C5BFD2504" Guid="*">
+                <File Id="fil7761FC30D892B87AECA41DDF6CF11BB4" KeyPath="yes" Source="$(var.ContentDirectory)\art\speed.xnb" />
+            </Component>
+            <Component Id="cmpB84BAF0B6C692982D93D81BAA9E50C07" Directory="dirB4A7980592EC17055F1DC76C5BFD2504" Guid="*">
+                <File Id="filD6C5D25AB81DE747337F17D62D61FDFA" KeyPath="yes" Source="$(var.ContentDirectory)\art\Target.xnb" />
+            </Component>
+            <Component Id="cmp6AA1B247BE20788C0C19F396EF57B1B0" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="fil92D732D92D025AE35A91B2FB403ABF8D" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\bomb.xnb" />
+            </Component>
+            <Component Id="cmpC9B904EE81028620A5C1FE55BAAFE58F" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="filA99BB552272F5F3E38D8F411FA1C589D" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\Instructions_0.xnb" />
+            </Component>
+            <Component Id="cmp01582B65CF5562B466CD514E9EC43792" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="fil531540F44834F2EF57093B463FD49758" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\Instructions_1.xnb" />
+            </Component>
+            <Component Id="cmp7BD5DEE99A331DE30ECDD0F43D75FC72" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="filF4F5E130F934B3FBBD2B22510EA485E5" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\Instructions_2.xnb" />
+            </Component>
+            <Component Id="cmpA88ECCA426E037916AF4080366993DDC" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="fil09F864EA9FF593AEC7837CF19DDC1748" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\Instructions_3.xnb" />
+            </Component>
+            <Component Id="cmp31DD89F41E28AEB18CE909C591C3196A" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="filCCD4845CEEEE0531B44A9BBFA4353210" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\Instructions_4.xnb" />
+            </Component>
+            <Component Id="cmpA03A18753E867D7685AD236FF45A2106" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="filD6155511C32FB92150221B34656E80C0" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\Instructions_5.xnb" />
+            </Component>
+            <Component Id="cmp7B079DAA7BE98B8B488270BBC0D3DB61" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="filE0F72DC503692BAF77C66883C860EDE7" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\Instructions_6.xnb" />
+            </Component>
+            <Component Id="cmp5B4CAC69BDB0B2D1EB137A1CCFE18469" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="fil55DA3D3B37CF2D524FF5E46F02561E2C" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\Instructions_7.xnb" />
+            </Component>
+            <Component Id="cmpAD6DAFF14FDDC41A7AA866B40E8FDF6E" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="fil62E10334C1C2BA3B38D49A83FC9F2E8A" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\Instructions_8.xnb" />
+            </Component>
+            <Component Id="cmp2BBDAC74A73F26EF471F22A830F173F6" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="filD241309F8FD90071C8D771E3577BDF98" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\Instructions_9.xnb" />
+            </Component>
+            <Component Id="cmp8DB34135E53947A706AF45ADC458E4B8" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="fil7AA2FAC91EECF76A806056652C9EBA97" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\mouse_left.xnb" />
+            </Component>
+            <Component Id="cmpFD4CB26524DBAC721424F336B1A03AFB" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="fil47B818547A24AC28B576F84B77B0C91C" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\mouse_right.xnb" />
+            </Component>
+            <Component Id="cmpBEB51151860862CD48C36D7E6645E042" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="fil634B2A7CA646F1C502C1E4C9AD0239F1" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\pkey.xnb" />
+            </Component>
+            <Component Id="cmp8501CA8FE98878518A44D2BE00EAF283" Directory="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Guid="*">
+                <File Id="filE95597F75C7C9EB338A5E65958B6C708" KeyPath="yes" Source="$(var.ContentDirectory)\art\instros\spacebar.xnb" />
+            </Component>
+            <Component Id="cmp14562CEBD95B26025166D929299BFC37" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="filDDA4E915BFAF74F722400495701B192C" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\ChromaTeam.xnb" />
+            </Component>
+            <Component Id="cmpF53379444B1118FF7029930C671C169F" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="filA9056F5899B32ED2F6D8163224A15B5E" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\EndlessModeClicked.xnb" />
+            </Component>
+            <Component Id="cmpA7EDA67053758BE155AEBEF35C3F0FC4" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="filE362EBE55B0DAB3E65EAABF55CB5B9C8" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\EndlessModeUnclicked.xnb" />
+            </Component>
+            <Component Id="cmp546760DACF827D875336BFDC5FD3BBF2" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="fil17543FE429FDDB74F6D3CF5D20671FEB" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\GameOver.xnb" />
+            </Component>
+            <Component Id="cmp0124695A7B77B535362DABAAA2E970F5" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="filAA9F68686156B98F3366C01E712FD6C0" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\LArrowClicked.xnb" />
+            </Component>
+            <Component Id="cmpE87C63D6AF40831E3DA382E27808329D" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="fil2F219AF7FC544162E458E68CA1BB9C61" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\LArrowUnclicked.xnb" />
+            </Component>
+            <Component Id="cmpE41E869BFB885E806341F5EEC897343E" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="fil0419FD4BE4AD84B2FF7A8AA1EB4EC67B" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\Options.xnb" />
+            </Component>
+            <Component Id="cmp3339CE7CA3D4DED01042E6BEC2AE5511" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="fil8D7FC5CEB57202EDFCABE853A6B29851" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\Pause.xnb" />
+            </Component>
+            <Component Id="cmp0D3D54EFE53D584446A3780CD2C16494" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="fil56398EB99EB401B3C7C8ECCBDACE572A" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\RArrowClicked.xnb" />
+            </Component>
+            <Component Id="cmpAEF443907E9EFF7D275DAEEB404422E0" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="fil1D05A1981B987F30F12B2EB87A9600FC" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\RArrowUnclicked.xnb" />
+            </Component>
+            <Component Id="cmp912F013FD62F4CFE0785F6A2C4851375" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="fil02C9AD743CBFFBAECE84DC38B37EC16A" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\Select.xnb" />
+            </Component>
+            <Component Id="cmpAAA2201C2E53E8D6C4347857D1ED5E60" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="fil04F6909A9283C91692365D4AE9E6B30A" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\TimedModeClicked.xnb" />
+            </Component>
+            <Component Id="cmp5472502A9FC4F068A2695AF85A66EF9F" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="filF5D48E7A6424138AA394A1132E7F6292" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\TimedModeUnclicked.xnb" />
+            </Component>
+            <Component Id="cmpB1EC65ADFDC3EFCC47F87E74038C18E8" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="fil470FECBCDD887D68CF9F71C7BE7B66E5" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\Title.xnb" />
+            </Component>
+            <Component Id="cmp2BB216269D8ECCB6D5B11A92CEE71214" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="fil4D94978228D06CD1B023EA0B7A3540AE" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\TitleButtonDeselected.xnb" />
+            </Component>
+            <Component Id="cmp434F4174AB7ADD8185A306ED84003BC3" Directory="dir53397D9A77A48E96597E29E74F9ED3C3" Guid="*">
+                <File Id="fil3DFA650FF2B9DB5B685EF561711BD33D" KeyPath="yes" Source="$(var.ContentDirectory)\art\mnu\TitleButtonSelected.xnb" />
+            </Component>
+            <Component Id="cmp694600A2183C89094EBBEB00BB7C44F2" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil3B58EE81479B89A25B770B54114FF6AF" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\1.xnb" />
+            </Component>
+            <Component Id="cmp56392C0778EBF9E731B31D42A82E8120" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil0DD0EF4D9A7D03129C72AE1DCBDA5B1F" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\1Bomb.xnb" />
+            </Component>
+            <Component Id="cmp5B98B6051E2447AEA67B435BB6F0112F" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil06DD6FE484C055A3BAA8E3EA6B0674E0" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\1BombSelected.xnb" />
+            </Component>
+            <Component Id="cmpAEDA5241640AB8898DB14ED3D9188675" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filAEFD9519B4AD620075EED370E5224C40" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\1BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp33670B7E8DAB5E8EBEC4EA41738B0431" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil199F9B8196D5FBCE08BC3092538A085E" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\1selected.xnb" />
+            </Component>
+            <Component Id="cmp0D68E9789A1717C2D158509D4CEBFF33" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filA46028D8A7B570B4709F55EE2ACEC02F" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\1selected2.xnb" />
+            </Component>
+            <Component Id="cmpE4C492BA3635FA27070218F54FF4D1EB" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil1BCC8B84A0E951EF978D92EE0483D6E0" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\2.xnb" />
+            </Component>
+            <Component Id="cmp58800271B10397D8E77B6C3675772197" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filE2539B52F90E598F8D9913C6C9E67B9E" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\2Bomb.xnb" />
+            </Component>
+            <Component Id="cmpC952B89999AC0D57A9EFD53D766A7552" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filDF555999C0D55CE276376B5DDBB51E2F" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\2BombSelected.xnb" />
+            </Component>
+            <Component Id="cmpF973CBB716313A6150991103132BCC5C" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filCD5F6FA4A3C68DA096243357B82AB195" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\2BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp1B2F0DD33B37E9160422501821D97867" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil9B0A1B2CC429112B8BCBC56A52601EB0" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\2selected.xnb" />
+            </Component>
+            <Component Id="cmp7784F05DF3F29B5313CF5D8578B70886" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil8185D5BC163C277B91298FB30CBA3887" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\2selected2.xnb" />
+            </Component>
+            <Component Id="cmp1CC87F73DD0B8BABDCFCADDCEA8F06DC" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil82A7E1131EBB179644C9286D3633752E" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\3.xnb" />
+            </Component>
+            <Component Id="cmpE7614EDBB99D0DB9F2AAFD2DD2054300" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil6EA8B9F3527ACD8E63AD9B702C8538A8" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\3Bomb.xnb" />
+            </Component>
+            <Component Id="cmpE02E1B80E0C3060538F3E6201C660684" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil92A82182320A063C0C1672855E4D023D" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\3BombSelected.xnb" />
+            </Component>
+            <Component Id="cmp6E964D9E141B23BEE7BD1B84119A5B25" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil98154BC48EE244DE709BF6638A51318C" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\3BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp0516328C64ECB6756780220392F31638" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil53E5146AA3D047B116F451E6D0066350" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\3selected.xnb" />
+            </Component>
+            <Component Id="cmp25C7BEAEA2C2996D2CE90BCE77772949" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil8947030E1ED147FB9B29F9F33FF8CD61" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\3selected2.xnb" />
+            </Component>
+            <Component Id="cmpA44C5FF3152214F7CBF884736D0AFF35" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil1EFC8239E7C73250CA6BFB49144FBA3A" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\4.xnb" />
+            </Component>
+            <Component Id="cmpAD84852E2CD83CA1BE209600DF4CF43C" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filCED982A214FA67EAB495DAAC417FD017" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\4Bomb.xnb" />
+            </Component>
+            <Component Id="cmpF7E598E34391F057B07CEC3EA99D547A" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil685CEAE68A1090D39404417238A1D004" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\4BombSelected.xnb" />
+            </Component>
+            <Component Id="cmpF5EABA7271DFCEF0D95D1649BD868431" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil42D12964FD5CA91AD7DD6A4968AFDE1C" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\4BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp9E03E428C8537E0E945FBA3C69FC025B" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil130CFC986097B2603D76C77EAF076EF9" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\4selected.xnb" />
+            </Component>
+            <Component Id="cmp30205138B35BA21E0C01CA2017E928F1" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil8B60B7C53E506B9651A4F2949AF96F78" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\4selected2.xnb" />
+            </Component>
+            <Component Id="cmpE46020C4451EB8DF8EBF5D1C53C15E23" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filA93E89A7E88F9E42EF709183285701AD" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\5.xnb" />
+            </Component>
+            <Component Id="cmpE32BC36D1D016676788BC48EB5E52A9E" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil819979B83E321739BF206CFC55166AEA" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\5Bomb.xnb" />
+            </Component>
+            <Component Id="cmpA59CDCC1A5C8EF66DB956A56EDF37FB1" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil4907D278E3BCE17BBC4C19FA58411D62" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\5BombSelected.xnb" />
+            </Component>
+            <Component Id="cmpD59D468EC7696A147E54B71680BC3381" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil773BD4069E232FE8394A5CC17AFD1191" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\5BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmpBD2CE0E3A78AEBA11EDCA1A3EFF8BCF9" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filF6939B8B2A76EC51B8EF4C3D497AFBC0" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\5selected.xnb" />
+            </Component>
+            <Component Id="cmpF2226BFA24EE7AE1A424904DD68C7FCF" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filC699B4F965FE5F0E5442CDF99388891F" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\5selected2.xnb" />
+            </Component>
+            <Component Id="cmpA39247D0EE900448D6927C6AE4A0B4BE" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil17A4ECCD3FDA867AA85DC5928624FAC0" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\6.xnb" />
+            </Component>
+            <Component Id="cmp33C04352C560FA4F864F15A2E14CD41B" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filBE9638E892CA0307C6A411CE0E22E002" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\6Bomb.xnb" />
+            </Component>
+            <Component Id="cmpF50786FEBCDF49C667900F93F13E6AD2" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filBD474F46512B07DC741E317CA72423DF" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\6BombSelected.xnb" />
+            </Component>
+            <Component Id="cmp38CF82900907579625C969C177615F1A" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filB539536E195C197E7FE0153697E8477F" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\6BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp47897CE194785C49FD5FDBB58EF46108" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil7B67290BEEDF73C703D05706FDA90EBB" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\6selected.xnb" />
+            </Component>
+            <Component Id="cmpB86732CADDDFB9D568524FF5C4318947" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil3C08159386AAC2B929375FA04C7FA260" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\6selected2.xnb" />
+            </Component>
+            <Component Id="cmp6CD722869B4EDC4FD1532A0F296ADC7D" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filD7A31B61060C6915F0224F39F5AD2352" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\7.xnb" />
+            </Component>
+            <Component Id="cmp1289B86B280355FBD639310EF4B6B98C" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filE79971199C89FA492C70537D142D92C8" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\7Bomb.xnb" />
+            </Component>
+            <Component Id="cmp70BF965BF4685AC7DE85A49473C3712E" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil1276612B713FFDDCA47EF3363978478A" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\7BombSelected.xnb" />
+            </Component>
+            <Component Id="cmp713A908504269ACFC8E017C8D43BFB13" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil2F147FD17E98FB111A0BCDA560F71302" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\7BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmpEFAAF67BA4C1ECC7F2AB50AE4CAEA13E" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil3DF3FE587A0D5444AB993A3B6E7A32A3" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\7selected.xnb" />
+            </Component>
+            <Component Id="cmp03F08B51E5AC01E34E5DB2757EFF5B17" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filED1C42B620F76E4F342FE9E1AC8A8E3F" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\7selected2.xnb" />
+            </Component>
+            <Component Id="cmpAFD9B8ED5746EF435A21E102A312E52F" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filE40A2570D3AA31187441A1DDE71C28BA" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\8.xnb" />
+            </Component>
+            <Component Id="cmp353C947DFE492B831FEF7918287DE6C3" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filD1E023864F4AF05656E219F925A726A5" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\8Bomb.xnb" />
+            </Component>
+            <Component Id="cmp7694ECEFA73697E405E3FB8A9939EC46" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil70AE0C5871C6E749A17D2FDA6D337314" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\8BombSelected.xnb" />
+            </Component>
+            <Component Id="cmpFB92863A137F75BAF64BAA4A1C70691A" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil1433FE2C06768124B09116494116C769" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\8BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp4362A7275720EAD38F40758EEDEFF1CE" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil71547FCBABB0F21BEC7F5E20A86192B9" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\8selected.xnb" />
+            </Component>
+            <Component Id="cmpCC841FFA85D2B33133F9DC06025458CA" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filF21F592E660CCFE0A29462442B961A90" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\8selected2.xnb" />
+            </Component>
+            <Component Id="cmpF9DC0A28CF994131D669BAD3736FD254" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil88F4F7C1AD46B31B776DF659EC722338" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\9.xnb" />
+            </Component>
+            <Component Id="cmp83356500080C6479B75BA38CD7AD59DD" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil83522373124F5378BA074585BFBE2918" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\9Bomb.xnb" />
+            </Component>
+            <Component Id="cmp5B0274F8BEAC5DB5F635C8202AA29CCB" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filB8EABA09ECDD3953D07B00C9C41F2D9A" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\9BombSelected.xnb" />
+            </Component>
+            <Component Id="cmp1CE4EFFF7FEF7B0405D8C92D3FF7A604" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil4BDFB16D777F8D926419DCC870C0A9DF" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\9BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp3DC267428E1AE06619185EEB3B62D8F5" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil3D27F735F48F5475FA076BA022094D51" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\9selected.xnb" />
+            </Component>
+            <Component Id="cmpC8FF63E59A973E260B028B9F16907451" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filC90936CF8E80060C8805E4A90540CE70" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\9selected2.xnb" />
+            </Component>
+            <Component Id="cmp7404BDD9D371257E4119DFCF55C22FAD" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil15BF04887986DC05A723A235D5BD33E0" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\BombHighlightC.xnb" />
+            </Component>
+            <Component Id="cmp0821596825E87F6ECD0CD35B8A509D1B" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="filA51BB1FE7736E14696FC0E715193D3D0" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\BombHighlightPlus.xnb" />
+            </Component>
+            <Component Id="cmpDCF801AB299B664BBCC0F0526D637C35" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil71FB0AF1AABC0B03F9B5E56A0074D0E2" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\BombHighlightS.xnb" />
+            </Component>
+            <Component Id="cmp952FB31A22298191B4694AA2BD48C62D" Directory="dirF14BAEBC238E37A708091451B6C3D3DA" Guid="*">
+                <File Id="fil66BECD1D19958C25354E69F71571CFE8" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\Dead.xnb" />
+            </Component>
+            <Component Id="cmp4A5908786F4AFA18688D81C99C4C336F" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filAB67615042752C1A8D2CFAD64B82F545" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\1.xnb" />
+            </Component>
+            <Component Id="cmp9C79A448EB85F1465A724E629CEEA173" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil972442D38FD30D206466C694D06F988F" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\1Bomb.xnb" />
+            </Component>
+            <Component Id="cmpBE831D0BE517675AA8BFBACFE9CDF58E" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filBC01BD0FA170731EBC3EF198665963A6" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\1BombSelected.xnb" />
+            </Component>
+            <Component Id="cmp6806C214286D8C03C7172DAE5BE5675F" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil5EFB91173140814A927455070A55B30B" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\1BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmpCD0CBF71D326E02B4F6EBE26AB052E7F" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil85DCE0082D67E03CCBAE5D60168ED5BA" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\1selected.xnb" />
+            </Component>
+            <Component Id="cmp3F6E9A068D0347CA2F6DE275EB9486BA" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil878914F0AD666C3E8D65542451A4CB65" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\1selected2.xnb" />
+            </Component>
+            <Component Id="cmp362EA776E0701D5C49CE2AE305D3E61B" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil854459B5B16D0F4A1BE988D011E44D0D" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\2.xnb" />
+            </Component>
+            <Component Id="cmpBBE3DF2D670F6E0F3386242609BF6CFE" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filBB0CC6B3AFE8F2805FFC33EB315F520D" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\2Bomb.xnb" />
+            </Component>
+            <Component Id="cmp0FE8415B8847B5D1191D53C3F1507474" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filB14192651CEE5D96AFB64FA6735775C9" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\2BombSelected.xnb" />
+            </Component>
+            <Component Id="cmpD437D6C56402C6C90DEC0CE3AD2F0EE2" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil58781CD4A000C3651FBE7AF044900402" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\2BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp6AD50B54725E3A03B35EAADFB5416119" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filF95D353E0304755790CFA5F40BA67E64" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\2selected.xnb" />
+            </Component>
+            <Component Id="cmp74ACFEDE7862EF5A07E55E0A233A5122" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil41CC0BD13B04F362C5BA89152E4E87B2" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\2selected2.xnb" />
+            </Component>
+            <Component Id="cmp0E1E51AD1948DAAE1F5DCBB72628BCF1" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil9114B18A4833CB0FBF4FFBE173F79206" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\3.xnb" />
+            </Component>
+            <Component Id="cmp93B3C754432FA6B2FE78B4D3E6BCC585" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil04574C6B3394DDA832DC932A4444D720" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\3Bomb.xnb" />
+            </Component>
+            <Component Id="cmpAE87F70D22F415E610305A624736DC1E" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filBAF075845E608CC02A15AC72C5011DFD" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\3BombSelected.xnb" />
+            </Component>
+            <Component Id="cmp2D0253F74BADBBE9F2B05ED1C79E4F21" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil13D2B33F7332A31D45A9AAE280F4185D" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\3BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp78FA8FD15C5954057CF1A0C5B7FF5C18" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil0BA9ADB560D0A82FFA3143E9E1B228D7" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\3selected.xnb" />
+            </Component>
+            <Component Id="cmpFE98F43DDF62418553696D9FD85B8270" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil299F277675D44861E9179F61C034CF90" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\3selected2.xnb" />
+            </Component>
+            <Component Id="cmp3FDC5E3B3D1E98124741FC0ABFFAA7EF" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filD6CE718430C1FFD0BE3FA0195A69C08B" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\4.xnb" />
+            </Component>
+            <Component Id="cmp972A9CD370AA5F337443F5F949825E2C" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil2EA2FC9E8DF3CEC4946D143FD546E281" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\4Bomb.xnb" />
+            </Component>
+            <Component Id="cmp246AF163457D3A15C06CA4E142863229" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil402F1BEE90E7BF43722BBBF2DC8B76E9" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\4BombSelected.xnb" />
+            </Component>
+            <Component Id="cmp63655309F8E2C95BE5D6CD88CF596692" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil3E0AD792B81DA36E011817AB6CC6CC58" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\4BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp9D5F0C945306BB00ED44741A1D848810" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filF8A67637C8EE25AFA4BC41359DE17233" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\4selected.xnb" />
+            </Component>
+            <Component Id="cmp69B73CF044A329B99780059956EBF937" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filF5351D62D1C70E4C81DB8016EBCD1719" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\4selected2.xnb" />
+            </Component>
+            <Component Id="cmp02ABD195D6831A51A80743A158EF4906" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filABCA33B6165774D19FB837107000F50C" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\5.xnb" />
+            </Component>
+            <Component Id="cmpF63277ABC779E39AF64B4C2FD990CF74" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil686A80490F83AD3EA4D20315247745D9" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\5Bomb.xnb" />
+            </Component>
+            <Component Id="cmpAFFBE0B72732A5245E32EC61A4748B89" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil9E42E1DC2D5B26C77AE3034A12DC384D" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\5BombSelected.xnb" />
+            </Component>
+            <Component Id="cmpD2786C0E037ABA7B082BEF50570E1686" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil735DE5A171BDBAFF43F88BC2FD9B8C57" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\5BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmpD214A7BAB359134205FC6FB38783295E" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil7E2C1F2175D3C80CC9816E36F923FD1C" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\5selected.xnb" />
+            </Component>
+            <Component Id="cmp61B170CAD2C44C71AD42AD81B47ACE4A" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filA4064FE264B199D4D89B64B4A93199FC" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\5selected2.xnb" />
+            </Component>
+            <Component Id="cmpFEF87917A23FE7BF06EBCD4331E43199" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filA5C95A83C4C7C5E8ECD65CB537ACC219" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\6.xnb" />
+            </Component>
+            <Component Id="cmp42A421965D4F463055E679ED6F940936" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil974AE6AE49FA09DAD46B309C287529EB" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\6Bomb.xnb" />
+            </Component>
+            <Component Id="cmp2C65D738580B14E5960FC37DF726022A" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil5B286AE8226B732581DF00C79E15A73F" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\6BombSelected.xnb" />
+            </Component>
+            <Component Id="cmp43C11CDC07C5D5FBD5E38A14A5B7A8F9" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil5BA2539C9F82343A79D071AEFE51C1DF" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\6BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp5A4D2E5C911A4412F85657A0DDF7362E" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filE1026E0E7E47E18CFED60E4648A63431" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\6selected.xnb" />
+            </Component>
+            <Component Id="cmpD1A5595CC2D3263AD0E86596714B7D87" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil25B66823D543044C74503C5DAB57CF20" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\6selected2.xnb" />
+            </Component>
+            <Component Id="cmp70C7264104132E00F602DA3D90D9630D" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil90A0613C8F18F3612D3DDF76FF887876" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\7.xnb" />
+            </Component>
+            <Component Id="cmp6C0BF4EF8C45FAF07C3BBCB340ACB150" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil9AC3098C6EEFFCFF3C4C0C4359B646E0" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\7Bomb.xnb" />
+            </Component>
+            <Component Id="cmpCCDAA775B702933DD3DEAF51823D5C5B" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil661F2512BD56D7FAD727B37F522EF1CC" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\7BombSelected.xnb" />
+            </Component>
+            <Component Id="cmpB9C8E4EEE59359F5EA23B77EA03AED17" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil8FF25EF813750F254C408679420D95C0" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\7BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp5BDAF2482682F6EA05B3BE27DB0DE1A3" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil7766EB4FBA67B7B8370E032E374E230D" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\7selected.xnb" />
+            </Component>
+            <Component Id="cmp8B8D1D93F1DB6DA2E7D22E5F623517E7" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filB6521424F4326A025F8E49EC1D0D42EC" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\7selected2.xnb" />
+            </Component>
+            <Component Id="cmpCC1033655B76024DB5F9B25C91E2CD42" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil61C7CCF894F9F4199502DEEACB0D0FBD" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\8.xnb" />
+            </Component>
+            <Component Id="cmp3963018E5ECCD47BFAEC58A0C41E2117" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil71FF4BD6C7067E96B42CDEACDD951A16" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\8Bomb.xnb" />
+            </Component>
+            <Component Id="cmpA4DC89A70F9CA96DB9C2FCE45B2DC507" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil7C7EFF9C3146578E8B4E9EF1D89B1716" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\8BombSelected.xnb" />
+            </Component>
+            <Component Id="cmp331BB95223AC5A59A243125CF155ECC6" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil4B4E41D31D251E8CE4BDA8E6FEF0094C" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\8BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp2478C59FD10A3BB12EC7A327D932EFCF" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filFB83A63CE3C6A53F0512F7DD5AD7E16F" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\8selected.xnb" />
+            </Component>
+            <Component Id="cmp21325C8925A0B62D8970EA65A1C736A4" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil646E69578F6F0EDDD96810EF034E3242" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\8selected2.xnb" />
+            </Component>
+            <Component Id="cmp2227ACF8335459C4C2F19644AB5F1862" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil071079E3735EBD987087B98F7903B1B3" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\9.xnb" />
+            </Component>
+            <Component Id="cmp80E79EE4F70D235DFBB9C4724B099D42" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filCD4717D23D8FE205350CD5358DD1C2BC" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\9Bomb.xnb" />
+            </Component>
+            <Component Id="cmp99A3A35E02C585FDEB1183745504DAB7" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil1AAE944AB585EA791A9581BA0736B39F" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\9BombSelected.xnb" />
+            </Component>
+            <Component Id="cmp6A65F37B3AF78241670516CAAB9F12DD" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil9F91FF4EA4FBD3BA4E47C85C0919F48C" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\9BombSelected2.xnb" />
+            </Component>
+            <Component Id="cmp7E3609176B483B31F5035DFDD83712E9" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil0F85B8BC624455893D69C575C9C379B9" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\9selected.xnb" />
+            </Component>
+            <Component Id="cmp2904C5767B5E6431C271268900FF23E2" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filEF182F4CBC80F9ED2362FB216308CE19" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\9selected2.xnb" />
+            </Component>
+            <Component Id="cmpC28DF11A6082AE93CABEC379D7930959" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filE11682C84425D8DA8BEE00FE308A5B07" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\BombHighlightC.xnb" />
+            </Component>
+            <Component Id="cmp56A25A92A83B1AE73134C484E1C295D4" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="fil5AF5D4A9889813E854B7A1BE06238B38" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\BombHighlightPlus.xnb" />
+            </Component>
+            <Component Id="cmp9C109930A871C19EEAFED7CC75CFF1D2" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filEFA34E27B1E5358D86BBBBB6B7E3D89B" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\BombHighlightS.xnb" />
+            </Component>
+            <Component Id="cmp9EE23E8260288A0FB5E51C5C4E12E496" Directory="dirE7FF6203D81D3275C39F86BE2D2EBE29" Guid="*">
+                <File Id="filC321900C1AAE02111D7BC789F813C483" KeyPath="yes" Source="$(var.ContentDirectory)\art\Nova3\36x36 Graphics\Dead.xnb" />
+            </Component>
+            <Component Id="cmp7ED71A738E90CD1339300F8B78D198D5" Directory="dir8A057A9BAA40D7EC1ABD1F61DCCAC122" Guid="*">
+                <File Id="filBB889A004AC7127440E692D59BD17CFC" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\BGTile.xnb" />
+            </Component>
+            <Component Id="cmpA8663E3E57E0F6BE1CD7E1B9FAB5DED5" Directory="dir8A057A9BAA40D7EC1ABD1F61DCCAC122" Guid="*">
+                <File Id="fil8A03C0148BB62B876E9FC90A3DEDA933" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\LeaderboardFrame.xnb" />
+            </Component>
+            <Component Id="cmp334F7F1B2326F5D843EA6525DC87472D" Directory="dir8A057A9BAA40D7EC1ABD1F61DCCAC122" Guid="*">
+                <File Id="fil5CE1B1754A5F6D34F8A08BEBF9CB93A2" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\LevelStatus.xnb" />
+            </Component>
+            <Component Id="cmp0D3B2853A057C3F9DBFB38E3DC7BFC4A" Directory="dir8A057A9BAA40D7EC1ABD1F61DCCAC122" Guid="*">
+                <File Id="fil767D887EF9330FB32FB34794857F782A" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\LimitStatus.xnb" />
+            </Component>
+            <Component Id="cmpA679B96390FA6CB5FB76E1F5DC65EC46" Directory="dir8A057A9BAA40D7EC1ABD1F61DCCAC122" Guid="*">
+                <File Id="fil9D1FECD81ADEA850B5FC11891F6C4537" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\ScoreStatus.xnb" />
+            </Component>
+            <Component Id="cmp224BD59763B5169861B3E8949B609141" Directory="dir8A057A9BAA40D7EC1ABD1F61DCCAC122" Guid="*">
+                <File Id="fil1FE91B8AF23BA9C95E63A689512DD42A" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\SelectionBoxBackground.xnb" />
+            </Component>
+            <Component Id="cmp3A42F53EDEEA9FA7B3D87D575E9FB3E8" Directory="dir8A057A9BAA40D7EC1ABD1F61DCCAC122" Guid="*">
+                <File Id="filD9AD7C511B89E1980B76955E77AE58DC" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\StatusField.xnb" />
+            </Component>
+            <Component Id="cmpECB79AFE245DD815DE477D9EEB6C70BB" Directory="dir8A057A9BAA40D7EC1ABD1F61DCCAC122" Guid="*">
+                <File Id="fil26BE9A67FD13C454E871718376801BFC" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\TargetStatus.xnb" />
+            </Component>
+            <Component Id="cmp0D29A240B567878DEC09C7C079C3AF7F" Directory="dirDFE09A7E59E50E73B06F3A03574C8BCA" Guid="*">
+                <File Id="fil945A0344E9927CAEBB6CADA42225D492" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\36\GameField.xnb" />
+            </Component>
+            <Component Id="cmp28795DBC333DADF20C93BB1787DF7C28" Directory="dirDFE09A7E59E50E73B06F3A03574C8BCA" Guid="*">
+                <File Id="filF2E056C6A4937A5A1709B5F990CB7E23" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\36\GameFieldBG.xnb" />
+            </Component>
+            <Component Id="cmp1E5014258ED3796480F7EEAB5480A160" Directory="dirDFE09A7E59E50E73B06F3A03574C8BCA" Guid="*">
+                <File Id="fil4DA93233E75B52BEF8EC364FF6A68717" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\36\GameFieldExtension.xnb" />
+            </Component>
+            <Component Id="cmp7CF6C2603DFB2E7B58D399AB1CE44370" Directory="dirDFE09A7E59E50E73B06F3A03574C8BCA" Guid="*">
+                <File Id="fil67B5B6A6C02DA3AF2208DA65CBFB0419" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\36\SelectionBar.xnb" />
+            </Component>
+            <Component Id="cmp187D29D46F54B6A58EDC4AB0621F6509" Directory="dirDFE09A7E59E50E73B06F3A03574C8BCA" Guid="*">
+                <File Id="filE53542E11E3C65675287A1EF2C985003" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\36\Timer.xnb" />
+            </Component>
+            <Component Id="cmp8B5A273A9FF32EE728A4E365A8C8023B" Directory="dirCD27CA7CB5F480372D144915EC42B353" Guid="*">
+                <File Id="fil9CF0E2DA033043DA1307D61034430A22" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\44\GameField.xnb" />
+            </Component>
+            <Component Id="cmp7B73AF62B25B3ED52EF9FDF396FC0D5F" Directory="dirCD27CA7CB5F480372D144915EC42B353" Guid="*">
+                <File Id="fil10E00EE16ADC06258125B4457B3811F7" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\44\GameFieldBG.xnb" />
+            </Component>
+            <Component Id="cmp1883ED4EF51E70087451841158534501" Directory="dirCD27CA7CB5F480372D144915EC42B353" Guid="*">
+                <File Id="fil3D55DC7C12C7BF2B44A1C941B0E799D1" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\44\GameFieldExtension.xnb" />
+            </Component>
+            <Component Id="cmp52014AF34BD4EAA0EC07E164B6F92A3E" Directory="dirCD27CA7CB5F480372D144915EC42B353" Guid="*">
+                <File Id="fil18384EFDB54B6B662898EB677B77D094" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\44\SelectionBar.xnb" />
+            </Component>
+            <Component Id="cmp63BCA4C4224F39A755CF33982E720FEE" Directory="dirCD27CA7CB5F480372D144915EC42B353" Guid="*">
+                <File Id="filE8CB2B5798B36527DD8164F63DA61B4D" KeyPath="yes" Source="$(var.ContentDirectory)\art\TileImages\44\Timer.xnb" />
+            </Component>
+            <Component Id="cmpA0E0592A6A0ADA89C45950206B327A77" Directory="dirBBEB37C7425AF45728426355285797E7" Guid="*">
+                <File Id="filF0C06E4C45F12F3E7F626F006C3EB437" KeyPath="yes" Source="$(var.ContentDirectory)\fonts\chroma.xnb" />
+            </Component>
+            <Component Id="cmpF371ADCF840682A4D3ADE653CF641104" Directory="dirBBEB37C7425AF45728426355285797E7" Guid="*">
+                <File Id="filE81D07C38CE6F40087668D0AFC2C101E" KeyPath="yes" Source="$(var.ContentDirectory)\fonts\chroma_flat.xnb" />
+            </Component>
+            <Component Id="cmp61E2A42771FFE7AE246891EDAD47728D" Directory="dirBBEB37C7425AF45728426355285797E7" Guid="*">
+                <File Id="fil3DE2AA7795E28A992DB8DFFAB4331CEC" KeyPath="yes" Source="$(var.ContentDirectory)\fonts\Courier New.xnb" />
+            </Component>
+            <Component Id="cmp0996DE17D4D4DC607211B8873BFDB2B5" Directory="dirA56CF6D9D240B92E33AB9FCD2AB830DA" Guid="*">
+                <File Id="fil8CE2B886685CB606665E2495AFF3A19C" KeyPath="yes" Source="$(var.ContentDirectory)\sfx\BlockDrop.xnb" />
+            </Component>
+            <Component Id="cmp7F2C9C7CF0BD61012B7F8EDC92482730" Directory="dirA56CF6D9D240B92E33AB9FCD2AB830DA" Guid="*">
+                <File Id="filF687C4C84EE64D8733623F2AD3C5592B" KeyPath="yes" Source="$(var.ContentDirectory)\sfx\Clear.xnb" />
+            </Component>
+            <Component Id="cmp373CE148BC56C3C4D723FE570A7A26C2" Directory="dirA56CF6D9D240B92E33AB9FCD2AB830DA" Guid="*">
+                <File Id="filF079B6D7A016156E2C8467B5DFF3578D" KeyPath="yes" Source="$(var.ContentDirectory)\sfx\Clink.xnb" />
+            </Component>
+            <Component Id="cmp1A2A72405F13DF0DBA7DD2B7354C970A" Directory="dirA56CF6D9D240B92E33AB9FCD2AB830DA" Guid="*">
+                <File Id="fil8D66B271252C83C781480F141CA5AA91" KeyPath="yes" Source="$(var.ContentDirectory)\sfx\Deselect.xnb" />
+            </Component>
+            <Component Id="cmpAA9B0C5F62F389A79C2ED0DE1A1FE3E3" Directory="dirA56CF6D9D240B92E33AB9FCD2AB830DA" Guid="*">
+                <File Id="fil99FC84014B950EF5C5EB515BE4A706A8" KeyPath="yes" Source="$(var.ContentDirectory)\sfx\Select.xnb" />
+            </Component>
+            <Component Id="cmpBCE05B4991DF4098459F265DC92863AE" Directory="dirA56CF6D9D240B92E33AB9FCD2AB830DA" Guid="*">
+                <File Id="fil1F832EAF7F482DFD09DD1550572C1D8E" KeyPath="yes" Source="$(var.ContentDirectory)\sfx\Sweet.xnb" />
+            </Component>
+            <Component Id="cmp61C6261B22FC6CF938A240259F38ED0D" Directory="dirA56CF6D9D240B92E33AB9FCD2AB830DA" Guid="*">
+                <File Id="fil494F099DCC59A573F6D37D27D410859E" KeyPath="yes" Source="$(var.ContentDirectory)\sfx\thump.xnb" />
+            </Component>
+            <Component Id="cmpD1D422E1EC98C86C5F6D5D712DD23EED" Directory="dirA56CF6D9D240B92E33AB9FCD2AB830DA" Guid="*">
+                <File Id="fil12E73F92E139BD1C99272C0B17490E8F" KeyPath="yes" Source="$(var.ContentDirectory)\sfx\Wrong.xnb" />
+            </Component>
+            <Component Id="cmpD6D89A6272B708D35B5F4D433CDBA55F" Directory="dir585601AB44FA3C75EAB212AC93682507" Guid="*">
+                <File Id="filEE9D0236BFF354F95B312170AE7B903C" KeyPath="yes" Source="$(var.ContentDirectory)\sfx\bgm\Chromathud.wma" />
+            </Component>
+            <Component Id="cmp897C3D190411B3CDDD4409D24BACFC9E" Directory="dir585601AB44FA3C75EAB212AC93682507" Guid="*">
+                <File Id="filCD56B7213FFC0A5729AACBCDB8694E75" KeyPath="yes" Source="$(var.ContentDirectory)\sfx\bgm\Chromathud.xnb" />
+            </Component>
+            <Component Id="cmp2688616C80FF23F18095876D34C887CA" Directory="dir585601AB44FA3C75EAB212AC93682507" Guid="*">
+                <File Id="filB5255F1341C6D3B74DA326C69D528A89" KeyPath="yes" Source="$(var.ContentDirectory)\sfx\bgm\Killing Time.wma" />
+            </Component>
+            <Component Id="cmp70DA295640CAA37C1831DC9D5FCDB10C" Directory="dir585601AB44FA3C75EAB212AC93682507" Guid="*">
+                <File Id="fil1FD5207856D4E7FB7698077F6CA19004" KeyPath="yes" Source="$(var.ContentDirectory)\sfx\bgm\Killing Time.xnb" />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA56CF6D9D240B92E33AB9FCD2AB830DA" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirDFE09A7E59E50E73B06F3A03574C8BCA" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir53397D9A77A48E96597E29E74F9ED3C3" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA5E19859EAAEAE9A7251AFDFBBE4180F" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirE7FF6203D81D3275C39F86BE2D2EBE29" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF14BAEBC238E37A708091451B6C3D3DA" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirDA5725A7B2E60AB4FD88CDC8866EA02F" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir8A057A9BAA40D7EC1ABD1F61DCCAC122" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirB4A7980592EC17055F1DC76C5BFD2504" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirCD27CA7CB5F480372D144915EC42B353" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirBBEB37C7425AF45728426355285797E7" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir585601AB44FA3C75EAB212AC93682507" />
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirB4A7980592EC17055F1DC76C5BFD2504">
+            <Directory Id="dir53397D9A77A48E96597E29E74F9ED3C3" Name="mnu" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA56CF6D9D240B92E33AB9FCD2AB830DA">
+            <Directory Id="dir585601AB44FA3C75EAB212AC93682507" Name="bgm" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirB4A7980592EC17055F1DC76C5BFD2504">
+            <Directory Id="dir8A057A9BAA40D7EC1ABD1F61DCCAC122" Name="TileImages" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA5E19859EAAEAE9A7251AFDFBBE4180F">
+            <Directory Id="dirA56CF6D9D240B92E33AB9FCD2AB830DA" Name="sfx" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA5E19859EAAEAE9A7251AFDFBBE4180F">
+            <Directory Id="dirB4A7980592EC17055F1DC76C5BFD2504" Name="art" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirA5E19859EAAEAE9A7251AFDFBBE4180F">
+            <Directory Id="dirBBEB37C7425AF45728426355285797E7" Name="fonts" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir8A057A9BAA40D7EC1ABD1F61DCCAC122">
+            <Directory Id="dirCD27CA7CB5F480372D144915EC42B353" Name="44" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirB4A7980592EC17055F1DC76C5BFD2504">
+            <Directory Id="dirDA5725A7B2E60AB4FD88CDC8866EA02F" Name="instros" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dir8A057A9BAA40D7EC1ABD1F61DCCAC122">
+            <Directory Id="dirDFE09A7E59E50E73B06F3A03574C8BCA" Name="36" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirF14BAEBC238E37A708091451B6C3D3DA">
+            <Directory Id="dirE7FF6203D81D3275C39F86BE2D2EBE29" Name="36x36 Graphics" />
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <DirectoryRef Id="dirB4A7980592EC17055F1DC76C5BFD2504">
+            <Directory Id="dirF14BAEBC238E37A708091451B6C3D3DA" Name="Nova3" />
+        </DirectoryRef>
+    </Fragment>
+</Wix>
